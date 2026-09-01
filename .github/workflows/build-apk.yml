@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Unzip project
-        run: unzip dongyin-reminder-github-v1.zip -d project
+        run: unzip dongyin-reminder-github-v2.zip -d project
 
       - name: Setup Java
         uses: actions/setup-java@v4
